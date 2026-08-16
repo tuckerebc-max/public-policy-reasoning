@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "package_id": "F2-SKILL-PUBLIC-POLICY-REASONING-001",
+  "skill_name": "public-policy-reasoning",
+  "track_id": "OPT-67-PUBLIC-POLICY",
+  "competency_id": "F2-COMP-67-PUBLIC-POLICY-001",
+  "architecture_id": "F2-ARCH-67-PUBLIC-POLICY-001",
+  "status": "PRIVATE_V1_READY_FOR_DRY_RUN",
+  "source_ids": [
+    "F2-67-006",
+    "F2-67-007"
+  ],
+  "source_handoff": "references/source-manifest.json",
+  "source_crosswalk": "references/source-crosswalk.md",
+  "source_lineage": "Fork 2 approved-track lineage is preserved in the in-package source manifest; no parent workspace is required at runtime.",
+  "human_review_required": true,
+  "credentialing": false,
+  "github_push_performed": false,
+  "open_gates": [
+    "current official source and rights verification",
+    "domain-qualified human review",
+    "human dry-run and reviewer calibration",
+    "accessibility review",
+    "fresh-context forward testing"
+  ],
+  "competency_name": "Evidence-informed public-policy reasoning and accountable decision making",
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references",
+    "scripts",
+    "tests",
+    ".github/workflows/validate.yml",
+    "release-manifest.json"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "fixture_id": "FIX-PUBLIC-POLICY-REASONING-001",
+  "track_id": "OPT-67-PUBLIC-POLICY",
+  "competency_id": "F2-COMP-67-PUBLIC-POLICY-001",
+  "status": "READY_FOR_HUMAN_DRY_RUN",
+  "source_ids": [
+    "F2-67-006",
+    "F2-67-007"
+  ],
+  "construct_boundary": "Original educational pilot for Public-policy reasoning and evidence-informed decision making; not a credential, license, professional authorization, or high-impact decision.",
+  "task_contract": {
+    "purpose": "Run one bounded learner/reviewer task and inspect the evidence record.",
+    "role": "public-policy reasoning and evidence analyst",
+    "audience": "learner and qualified reviewer",
+    "format": "problem statement, stakeholder map, evidence ledger, options matrix, implementation / evaluation plan, public brief.",
+    "time_limit": "60 minutes",
+    "allowed_materials": [
+      "this original synthetic fixture",
+      "learner notes",
+      "clearly identified public sources where applicable"
+    ],
+    "prohibited_actions": [
+      "invent source content",
+      "use confidential or real-person data",
+      "present the output as professional authorization"
+    ],
+    "decision_rights": "provide formative feedback and request review; no credentialing or final consequential decision",
+    "accessibility": "plain-language, screen-reader-compatible, and equivalent representations are permitted"
+  },
+  "stimulus": {
+    "type": "original_synthetic_bounded_packet_excerpt",
+    "notice": "The fixture is educational and non-secure.",
+    "excerpt": "## `OPT-67-PUBLIC-POLICY` — From preferred policy to accountable options\n\n**Learner target:** Compare policy options while exposing values, burdens, feasibility, and uncertainty.\n\n**Fictional decision:** A city must decide how to reduce missed appointments for a public service. The evidence includes a small pilot, stakeholder testimony, implementation constraints, and unequal effects across neighborhoods.\n\n**Learner task:** Define the problem and affected populations, map stakeholders and power, build two feasible options, identify evidence gaps, evaluate distributional effects, and write a recommendation with a learning plan.\n\n**Required artifact:** problem statement, stakeholder map, evidence ledger, options matrix, implementation / evaluation plan, public brief.\n\n**Nonmodel:** “Option A is best because it is more efficient,” without defining efficiency or identifying who bears the costs.  \n**Feedback move:** Ask “Efficient for whom, under which implementation conditions, and what would you measure next?”\n\n**Agent handoff:** Agent can organize evidence and draft options; human decision-makers remain accountable for values and public judgment.\n\n**Exit test:** Introduce a new..."
+  },
+  "learner_deliverables": [
+    "problem statement, stakeholder map, evidence ledger, options matrix, implementation / evaluation plan, public brief.",
+    "uncertainty and limitation record",
+    "review/escalation request"
+  ],
+  "evidence_envelope": {
+    "required_fields": [
+      "task_contract",
+      "source_ids",
+      "evidence",
+      "uncertainty",
+      "review_status"
+    ],
+    "minimum_evidence": [
+      "source traceability",
+      "boundary statement",
+      "at least one limitation or unresolved question",
+      "human-review route"
+    ]
+  },
+  "machine_checks": [
+    "required fields are present",
+    "source IDs are nonempty",
+    "rights and safety flags are declared",
+    "review status is present"
+  ],
+  "human_review": [
+    "Authorized decision-makers own public values, choices, and implementation.",
+    "substantive interpretation",
+    "accessibility and fairness",
+    "whether the output crosses the boundary"
+  ],
+  "stop_conditions": [
+    "real or confidential data are introduced",
+    "source or rights status is unclear",
+    "the task crosses into a live professional decision",
+    "the output is presented as a credential or sign-off"
+  ],
+  "evaluator": {
+    "dimensions": [
+      "traceability",
+      "construct evidence",
+      "uncertainty",
+      "boundary discipline",
+      "communication"
+    ],
+    "machine_decision": "structural checks only",
+    "human_decision": "qualified reviewer decides substantive adequacy and escalation",
+    "no_credentialing": true
+  },
+  "qa": {
+    "original_fixture": true,
+    "secure_content_reproduced": false,
+    "confidential_data": false,
+    "human_dry_run": "pending",
+    "known_risks": [
+      "Keep values, affected groups, burdens, implementation, jurisdiction, and human accountability visible."
+    ]
+  }
+}

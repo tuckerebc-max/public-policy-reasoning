@@ -1,0 +1,264 @@
+{
+  "competency_id": "F2-COMP-67-PUBLIC-POLICY-001",
+  "name": "Evidence-informed public-policy reasoning and accountable decision making",
+  "version": "0.1",
+  "domain": "6.7 advanced public-policy competencies",
+  "source_provenance": [
+    {
+      "source_id": "F2-67-006",
+      "layer": "SOURCE",
+      "role": "QAA Public Policy and Public Administration benchmark"
+    },
+    {
+      "source_id": "F2-67-007",
+      "layer": "SOURCE",
+      "role": "NASPAA competencies and Standard 5"
+    }
+  ],
+  "construct_definition": "Diagnose complex public problems, map affected parties and institutions, formulate feasible options, analyze implementation and distributional effects, communicate across audiences, and use evidence for accountable improvement. The source stack is not a universal PhD standard.",
+  "claims": [
+    {
+      "layer": "SOURCE",
+      "statement": "QAA addresses governance, public decision making, policy formulation and implementation, public service delivery, impact evaluation, and lessons for future action.",
+      "source_ids": [
+        "F2-67-006"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "NASPAA identifies public leadership, policy process, critical analysis and evidence-informed decisions, public-service perspective, and communication.",
+      "source_ids": [
+        "F2-67-007"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "NASPAA Standard 5 links competencies, evidence, assessment, and continuous improvement.",
+      "source_ids": [
+        "F2-67-007"
+      ]
+    }
+  ],
+  "subskills": [
+    {
+      "id": "POLICY-S1",
+      "name": "problem and affected-population definition"
+    },
+    {
+      "id": "POLICY-S2",
+      "name": "system, stakeholder, and power mapping"
+    },
+    {
+      "id": "POLICY-S3",
+      "name": "evidence appraisal and option formulation"
+    },
+    {
+      "id": "POLICY-S4",
+      "name": "implementation and evaluation"
+    },
+    {
+      "id": "POLICY-S5",
+      "name": "public communication and learning"
+    }
+  ],
+  "evidence_requirements": [
+    {
+      "id": "POLICY-E1",
+      "evidence": "problem and boundary map"
+    },
+    {
+      "id": "POLICY-E2",
+      "evidence": "stakeholder and power map"
+    },
+    {
+      "id": "POLICY-E3",
+      "evidence": "evidence ledger and options matrix"
+    },
+    {
+      "id": "POLICY-E4",
+      "evidence": "implementation and evaluation plan"
+    },
+    {
+      "id": "POLICY-E5",
+      "evidence": "public communication and learning memo"
+    }
+  ],
+  "task_archetypes": [
+    {
+      "id": "POLICY-T1",
+      "task": "problem diagnosis"
+    },
+    {
+      "id": "POLICY-T2",
+      "task": "evidence and options memo"
+    },
+    {
+      "id": "POLICY-T3",
+      "task": "implementation and risk plan"
+    },
+    {
+      "id": "POLICY-T4",
+      "task": "evaluation and post-decision review"
+    }
+  ],
+  "quality_dimensions": [
+    {
+      "id": "Q1",
+      "name": "problem framing"
+    },
+    {
+      "id": "Q2",
+      "name": "evidence fit"
+    },
+    {
+      "id": "Q3",
+      "name": "feasibility and implementation"
+    },
+    {
+      "id": "Q4",
+      "name": "equity and distributional analysis"
+    },
+    {
+      "id": "Q5",
+      "name": "public communication and accountability"
+    },
+    {
+      "id": "Q6",
+      "name": "continuous improvement"
+    }
+  ],
+  "scoring_rules": [
+    {
+      "layer": "SOURCE",
+      "rule": "Preserve QAA field benchmark and NASPAA accreditation layers."
+    },
+    {
+      "layer": "EVALUATOR_DESIGN",
+      "rule": "Surface values and tradeoffs; do not convert political preference into an evidence score."
+    }
+  ],
+  "performance_levels": [
+    {
+      "level": "emerging",
+      "description": "describes a policy preference with partial evidence or stakeholder coverage"
+    },
+    {
+      "level": "proficient",
+      "description": "compares feasible options with evidence, implementation, burdens, and uncertainty"
+    },
+    {
+      "level": "transfer",
+      "description": "handles contested values and revises after implementation evidence"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM1",
+      "name": "preference as evidence"
+    },
+    {
+      "id": "FM2",
+      "name": "stakeholder omission"
+    },
+    {
+      "id": "FM3",
+      "name": "implementation blindness"
+    },
+    {
+      "id": "FM4",
+      "name": "agent as accountable decision-maker"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "C1",
+      "constraint": "label QAA field benchmark and NASPAA MPA or MPP accreditation scope"
+    },
+    {
+      "id": "C2",
+      "constraint": "include affected-group and accessibility review"
+    },
+    {
+      "id": "C3",
+      "constraint": "public values remain explicit"
+    }
+  ],
+  "risk_considerations": [
+    {
+      "risk": "distributional harm",
+      "control": "burden and equity analysis"
+    },
+    {
+      "risk": "participation exclusion",
+      "control": "stakeholder and accessibility audit"
+    },
+    {
+      "risk": "political misuse",
+      "control": "evidence and value separation"
+    }
+  ],
+  "agent_instructions": {
+    "allowed_role": "organize evidence and generate options for human review",
+    "must_do": [
+      "map stakeholders",
+      "state values",
+      "show evidence limits",
+      "include implementation and evaluation"
+    ],
+    "must_not_do": [
+      "hide contested values",
+      "declare public legitimacy",
+      "speak for affected groups"
+    ],
+    "human_accountability": "decision authority and affected stakeholders remain human"
+  },
+  "evaluator_checks": [
+    {
+      "id": "EV1",
+      "check": "problem and decision authority are defined"
+    },
+    {
+      "id": "EV2",
+      "check": "affected populations and missing voices are visible"
+    },
+    {
+      "id": "EV3",
+      "check": "options include feasibility, burdens, and evidence"
+    },
+    {
+      "id": "EV4",
+      "check": "learning loop is specified"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TC1",
+      "fixture": "conflicting stakeholder values",
+      "expected": "values and tradeoffs explicit"
+    },
+    {
+      "id": "TC2",
+      "fixture": "weak evidence",
+      "expected": "uncertainty and nonrecommendation option"
+    },
+    {
+      "id": "TC3",
+      "fixture": "implementation barrier",
+      "expected": "revised feasible option"
+    },
+    {
+      "id": "TC4",
+      "fixture": "missing affected group",
+      "expected": "MISSING_STAKEHOLDER"
+    }
+  ],
+  "related_competencies": [
+    "F2-COMP-67-MEASUREMENT-001",
+    "ANRI-DOM-QST-001"
+  ],
+  "open_questions": [
+    {
+      "question": "Which doctoral public-policy exemplars should be added without overstating consensus?"
+    }
+  ]
+}

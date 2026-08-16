@@ -1,0 +1,6 @@
+interface:
+  display_name: "Public Policy Reasoning"
+  short_description: "Evaluate accountable policy options"
+  default_prompt: "Use $public-policy-reasoning for a source-grounded, bounded Public-policy reasoning and evidence-informed decision making workflow."
+policy:
+  allow_implicit_invocation: true

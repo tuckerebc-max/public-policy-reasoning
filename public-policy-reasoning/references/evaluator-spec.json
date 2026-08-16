@@ -1,0 +1,54 @@
+{
+  "evaluator_id": "OPT-67-PUBLIC-POLICY-EVALUATOR-001",
+  "track_id": "OPT-67-PUBLIC-POLICY",
+  "competency_id": "F2-COMP-67-PUBLIC-POLICY-001",
+  "status": "EVALUATOR_DRAFT",
+  "primary_evidence": [
+    "problem definition",
+    "affected-population map",
+    "stakeholder / power map",
+    "evidence ledger",
+    "options matrix",
+    "implementation and evaluation plans",
+    "public brief",
+    "learning memo."
+  ],
+  "dimensions": [
+    "problem framing",
+    "evidence fit",
+    "stakeholder coverage",
+    "feasibility",
+    "implementation",
+    "equity / burdens",
+    "communication",
+    "explicit values",
+    "accountability",
+    "improvement."
+  ],
+  "critical_failures": [
+    "hidden value judgment",
+    "omitted affected population",
+    "feasibility blindness",
+    "or agent output presented as public decision authority."
+  ],
+  "challenge_set_design": [
+    "contested values",
+    "incomplete evidence",
+    "implementation barrier",
+    "distributional tradeoff",
+    "missing-stakeholder case",
+    "post-decision evidence requiring revision."
+  ],
+  "improvement_loop": "diagnose weak stakeholder or consequence analysis → revise prompt with burden and implementation requirements → rerun → compare option quality and uncertainty disclosure.",
+  "quality_dimensions": [
+    "problem framing",
+    "evidence fit",
+    "feasibility and implementation",
+    "equity and distributional analysis",
+    "public communication and accountability",
+    "continuous improvement"
+  ],
+  "human_review_required": true,
+  "no_credentialing": true,
+  "source_boundary": "Project evaluator design until source-specific validity and human-review gates close."
+}
